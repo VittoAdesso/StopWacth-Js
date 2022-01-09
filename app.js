@@ -17,25 +17,27 @@ window.onload = function () {
         buttonStart.onclick = function() {
 
             clearInterval(Interval);
+            //start timer función de más abajo
             Interval = setInterval(startTimer, 10); 
         }
 
           //función que utilizaré cada vez que le de al botoón 
         buttonStop.onclick = function() {
+            //guarda en pantalla lo que llevo acumulado
             clearInterval(Interval); 
         }
 
           //función que utilizaré cada vez que le de al botoón 
         buttonReset.onclick = function () {
             clearInterval(Interval); 
+            //formatea todo
                 tens ='00';
                 seconds = '00'; 
                 appendTens.innerHTML = tens; 
-
-            appendSeconds.innerHTML = seconds; 
+                appendSeconds.innerHTML = seconds; 
         }
 
-  //función que utilizaré cada vez que le de al botoón 
+  //función que utilizaré cada vez que le de al botón 
         function startTimer () {
             tens ++; 
             
