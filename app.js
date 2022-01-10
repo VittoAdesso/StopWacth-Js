@@ -33,6 +33,7 @@ window.onload = function () {
             //formatea todo
                 tens ='00';
                 seconds = '00'; 
+                //sobrescribe el html 
                 appendTens.innerHTML = tens; 
                 appendSeconds.innerHTML = seconds; 
         }
@@ -48,10 +49,11 @@ window.onload = function () {
                 appendTens.innerHTML = tens; 
             }
             if(tens > 99){
-                // console.log('seconds'); 
+                
                 seconds++; 
                 appendSeconds.innerHTML = '0' + seconds; 
-                tens = 0; appendTens.innerHTML = '0' + 0; 
+                tens = 0; 
+                appendTens.innerHTML = '0' + 0; 
             }
             if(seconds > 9){
                 appendSeconds.innerHTML = seconds; 
