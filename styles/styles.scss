@@ -1,1 +1,11 @@
 @import './variables'; 
+@import './mixins'; 
+@import './estilosGenerales'; 
+
+
+body {
+
+    background-color: $base-color;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+}

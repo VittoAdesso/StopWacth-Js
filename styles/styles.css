@@ -1,1 +1,39 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  background-color: #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 5px auto;
+  color: #ffffffd8;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.8em;
+  font-weight: 120;
+  text-transform: uppercase;
+}
+
+#seconds, #tens {
+  font-size: 3em;
+}
+
+button {
+  border-radius: 5px;
+  -ktml-border-radius: 5px;
+  background: #ffffff;
+  color: #0000003f blanchedalmond;
+  border: solid 2px #ffffff3f;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.4em;
+  padding: 20px 12px;
+  width: 200px;
+  margin: 12px;
+  outline: none;
+}
+/*# sourceMappingURL=styles.css.map */
